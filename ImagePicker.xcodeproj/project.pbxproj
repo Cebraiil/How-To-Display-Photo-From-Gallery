@@ -14,6 +14,7 @@
 		0E84C8B1285DEA3F00D608E3 /* ImagePickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E84C8B0285DEA3F00D608E3 /* ImagePickerTests.swift */; };
 		0E84C8BB285DEA3F00D608E3 /* ImagePickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E84C8BA285DEA3F00D608E3 /* ImagePickerUITests.swift */; };
 		0E84C8BD285DEA3F00D608E3 /* ImagePickerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E84C8BC285DEA3F00D608E3 /* ImagePickerUITestsLaunchTests.swift */; };
+		0E84C8CC285DEB3D00D608E3 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E84C8CB285DEB3D00D608E3 /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		0E84C8B6285DEA3F00D608E3 /* ImagePickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImagePickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E84C8BA285DEA3F00D608E3 /* ImagePickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerUITests.swift; sourceTree = "<group>"; };
 		0E84C8BC285DEA3F00D608E3 /* ImagePickerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0E84C8CB285DEB3D00D608E3 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				0E84C8A1285DEA3E00D608E3 /* ContentView.swift */,
 				0E84C8A3285DEA3F00D608E3 /* Assets.xcassets */,
 				0E84C8A5285DEA3F00D608E3 /* Preview Content */,
+				0E84C8CB285DEB3D00D608E3 /* ImagePicker.swift */,
 			);
 			path = ImagePicker;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E84C8CC285DEB3D00D608E3 /* ImagePicker.swift in Sources */,
 				0E84C8A2285DEA3E00D608E3 /* ContentView.swift in Sources */,
 				0E84C8A0285DEA3E00D608E3 /* ImagePickerApp.swift in Sources */,
 			);
@@ -430,7 +434,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.adl.ImagePicker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devlight.ImagePicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -459,7 +463,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.adl.ImagePicker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devlight.ImagePicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
